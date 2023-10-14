@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Website Menu</title>
+    <!-- You can link to a CSS file here to style your menu -->
+    <style>
+
+
+       h1 {
+        font-family:Arial,sans,-serif;
+        font-size: 50px;
+            color: #333;
+        }
+
+        form {
+            margin: 100px;
+            padding: 100px;
+            background-color: #cf1a1a;
+            border: 1px solid #1a1616;
+            border-radius: 70px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+
+
+
+
+       body {
+            font-family: Arial, sans,-serif;
+            text-align: center;
+            background-color: 	#F5F5F5;
+        }
+
+        ul.menu {
+            font-family:Arial,sans,-serif;
+            font-size: 20px;
+
+            list-style-type: square;
+            margin: ;
+            padding-left:400px ;
+            padding-top:30px;
+            padding - bottom:100px;
+            display: flex;
+        }
+
+        ul.menu li {
+            margin-right: 100px;
+        }
+
+
+
+      button {
+        font-family: Arial, sans-serif;
+        font-size: 30px;
+      }
+
+      <div w3-include-html="h1.html"></div>
+
+    </style>
+</head>
+<body>
+    <div>
+        <img src="red.jpg" alt="logo">
+
+        </div>
+    <ul class="menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="hello.html">Hello</a></li>
+    </ul>
+
+
+
+  <br>
+    <br>
+      <br>
+      <h1>PDF Compressor</h1>
+    <form id="pdfForm" action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" class="form-control" id="file" name="file" />
+<!--            <input type='file' name='file' multiple=''/>-->
+<!--        <a href="/Users/rishabh/Movies/input.py">-->
+            <button type="submit">Compress</button>
+<!--        </a>-->
+    </form>
+    <p id="outputMessage"></p>
+
+
+
+    <footer>
+        &copy; 2023 Simple Website. All rights reserved.
+    </footer>
+</body>
+</html>
